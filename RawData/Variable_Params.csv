@@ -1,0 +1,109 @@
+﻿ID,Name,Abbreviation,Indicator,dType
+0,Reference Pool ID ,Pool_ID ,0,string
+1,Loan Identifier ,Loan_ID,1,string
+2,Monthly Reporting Period ,Act_Period,1,string
+3,Channel ,Channel ,1,string
+4,Seller Name ,Seller_Name ,0,string
+5,Servicer Name ,Servicer,0,string
+6,Master Servicer ,Master_Servicer ,0,string
+7,Original Interest Rate ,Orig_Rate,1,float64
+8,Current Interest Rate ,Curr_Rate,1,float64
+9,Original UPB ,Orig_UPB,1,float64
+10,UPB at Issuance ,Issuance_UPB,0,float64
+11,Current Actual UPB ,Curr_UPB,1,float64
+12,Original Loan Term ,Orig_Term,1,float64
+13,Origination Date ,Orig_Date,1,string
+14,First Payment Date ,First_Pay,1,string
+15,Loan Age ,Loan_Age,1,float64
+16,Remaining Months to Legal Maturity ,Rem_Months,1,float64
+17,Remaining Months To Maturity ,Adj_Rem_Months,1,float64
+18,Maturity Date ,Maturity_Date,1,string
+19,Original Loan to Value Ratio (LTV) ,OLTV,1,float64
+20,Original Combined Loan to Value Ratio (CLTV) ,OCLTV,1,float64
+21,Number of Borrowers ,Num_Bo,1,float64
+22,Debt-To-Income (DTI) ,DTI,1,float64
+23,Borrower Credit Score at Origination ,Cscore_B,1,float64
+24,Co-Borrower Credit Score at Origination ,Cscore_C,0,float64
+25,First Time Home Buyer Indicator ,First_Flag,1,string
+26,Loan Purpose ,Purpose,1,string
+27,Property Type ,Prop,1,string
+28,Number of Units ,No_Units,1,float64
+29,Occupancy Status ,Occ_Stat,1,string
+30,Property State ,State,1,string
+31,Metropolitan Statistical Area (MSA) ,MSA,1,string
+32,Zip Code Short ,ZIP,1,string
+33,Mortgage Insurance Percentage ,Mi_Pct,1,float64
+34,Amortization Type ,Product,1,string
+35,Prepayment Penalty Indicator ,Prepayment_Penalty_Indicator ,1,string
+36,Interest Only Loan Indicator ,Interest_Only_Loan_Indicator ,1,string
+37,Interest Only First Principal And Interest Payment Date ,Interest_Only_First_Principal_And_Interest_Payment_Date ,0,string
+38,Months to Amortization ,Months_to_Amortization ,0,string
+39,Current Loan Delinquency Status ,Current_Loan_Delinquency_Status,1,string
+40,Loan Payment History ,Loan_Payment_History ,0,string
+41,Modification Flag ,Mod_Flag,1,string
+42,Mortgage Insurance Cancellation Indicator ,Mortgage_Insurance_Cancellation_Indicator ,0,string
+43,Zero Balance Code ,Zero_Balance_Code,1,float64
+44,Zero Balance Effective Date ,Zero_Balance_Date,0,string
+45,UPB at the Time of Removal ,Last_UPB,0,float64
+46,Repurchase Date ,Repurchase_Date ,0,string
+47,Scheduled Principal Current ,Scheduled_Principal_Current ,0,float64
+48,Total Principal Current ,Total_Principal_Current ,0,float64
+49,Unscheduled Principal Current ,Unscheduled_Principal_Current ,0,float64
+50,Last Paid Installment Date ,Last_Paid_Installment_Date,0,string
+51,Foreclosure Date ,Foreclosure_Date,0,string
+52,Disposition Date ,Disposition_Date,0,string
+53,Foreclosure Costs ,Foreclosure_Costs,0,float64
+54,Property Preservation and Repair Costs ,Property_Preservation_And_Repair_Costs,0,float64
+55,Asset Recovery Costs ,Asset_Recovery_Costs,0,float64
+56,Miscellaneous Holding Expenses and Credits ,Miscellaneous_Holding_Expenses_And_Credits,0,float64
+57,Associated Taxes for Holding Property ,Associated_Taxes_for_Holding_Property,0,float64
+58,Net Sales Proceeds ,Net_Salse_Proceeds,0,float64
+59,Credit Enhancement Proceeds ,Credit_Enhancement_Proceeds ,0,float64
+60,Repurchase Make Whole Proceeds ,Repurchase_Make_Whole_Proceeds,0,float64
+61,Other Foreclosure Proceeds ,Other_Foreclosure_Proceeds,0,float64
+62,Non-Interest Bearing UPB ,Non_Interest_Bearing_UPB,0,float64
+63,Principal Forgiveness Amount ,Principal_Forgiveness_Amount,0,float64
+64,Original List Start Date ,Original_List_Start_Date,0,string
+65,Original List Price ,Original_List_Price ,0,float64
+66,Current List Start Date ,Current_List_Start_Date,0,string
+67,Current List Price ,Current_List_Price ,0,float64
+68,Borrower Credit Score At Issuance ,Issue_Score_C,0,float64
+69,Co-Borrower Credit Score At Issuance ,Co-Borrower_Credit_Score_At_Issuance ,0,string
+70,Borrower Credit Score Current ,Curr_Scoreb,0,float64
+71,Co-Borrower Credit Score Current ,Curr_Scorec,0,float64
+72,Mortgage Insurance Type ,Mi_Type,1,string
+73,Servicing Activity Indicator ,Serv_Ind,1,string
+74,Current Period Modification Loss Amount ,Current_Period_Modification_Loss_Amount ,0,float64
+75,Cumulative Modification Loss Amount ,Cumulative_Modification_Loss_Amount ,0,float64
+76,Current Period Credit Event Net Gain or Loss ,Current_Period_Credit_Event_Net_Gain_or_Loss ,0,float64
+77,Cumulative Credit Event Net Gain or Loss ,Cumulative_Credit_Event_Net_Gain_or_Loss ,0,float64
+78,HomeReady® Program Indicator ,HomeReady_Program_Indicator ,1,string
+79,Foreclosure Principal Write-off Amount ,Foreclosure_Principal_Write-off_Amount ,0,float64
+80,Relocation Mortgage Indicator ,Relocation_Mortgage_Indicator,1,string
+81,Zero Balance Code Change Date ,Zero_Balance_Code_Change_Date ,0,string
+82,Loan Holdback Indicator ,Loan_Holdback_Indicator ,0,string
+83,Loan Holdback Effective Date ,Loan_Holdback_Effective_Date ,0,string
+84,Delinquent Accrued Interest ,Delinquent_Accrued_Interest ,0,float64
+85,Property Valuation Method ,Property_Valuation_Method ,0,string
+86,High Balance Loan Indicator ,High_Balance_Loan_Indicator ,0,string
+87,ARM Initial Fixed-Rate Period ≤ 5 YR Indicator ,ARM_Initial_Fixed-Rate_Period_≤_5_YR_Indicator ,0,string
+88,ARM Product Type ,ARM_Product_Type ,0,string
+89,Initial Fixed-Rate Period ,Initial_Fixed_Rate_Period ,0,string
+90,Interest Rate Adjustment Frequency ,Interest_Rate_Adjustment_Frequency ,0,float64
+91,Next Interest Rate Adjustment Date ,Next_Interest_Rate_Adjustment_Date ,0,string
+92,Next Payment Change Date ,Next_Payment_Change_Date ,0,string
+93,Index ,Index ,0,string
+94,ARM Cap Structure ,ARM_Cap_Structure ,0,string
+95,Initial Interest Rate Cap Up Percent ,Initial_Interest_Rate_Cap_Up_Percent ,0,float64
+96,Periodic Interest Rate Cap Up Percent ,Periodic_Interest_Rate_Cap_Up_Percent ,0,float64
+97,Lifetime Interest Rate Cap Up Percent ,Lifetime_Interest_Rate_Cap_Up_Percent ,0,float64
+98,Mortgage Margin ,Mortgage_Margin ,0,float64
+99,ARM Balloon Indicator ,ARM_Balloon_Indicator ,0,string
+100,ARM Plan Number ,ARM_Plan_Number ,0,string
+101,Borrower Assistance Plan ,Borrower_Assistance_Plan ,0,string
+102,High Loan to Value (HLTV) Refinance Option Indicator ,High_Loan_to_Value_(HLTV)_Refinance_Option_Indicator ,0,string
+103,Deal Name ,Deal_Name ,0,string
+104,Repurchase Make Whole Proceeds Flag ,Repurchase_Make_Whole_Proceeds_Flag ,0,string
+105,Alternative Delinquency Resolution ,Alternative_Delinquency_Resolution ,0,string
+106,Alternative Delinquency Resolution Count ,Alternative_Delinquency_Resolution_Count ,0,float64
+107,Total Deferral Amount ,Total_Deferral_Amount ,0,float64
